@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-	<bean class="com.work2win.art.springArt.Model.ArtType" name="arttype">
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		
 		<property name="id"><value>1</value></property>
 		<property name="artType"><value>acrylic</value></property>
